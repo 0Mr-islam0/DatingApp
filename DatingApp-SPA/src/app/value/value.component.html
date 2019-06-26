@@ -1,0 +1,15 @@
+<div>
+<p>
+  Your Data
+</p><br>
+<Table border="3px">
+    <tr aria-colspan="3px">
+        <td> ID </td>
+        <td> Name </td>
+      </tr>
+  <tr *ngFor="let value of values">
+    <td>{{value.id}}</td>
+    <td>{{value.name}}</td>
+  </tr>
+</Table>
+</div>
