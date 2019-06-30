@@ -73,10 +73,9 @@ namespace DatingApp.API.Data
             {
                 return true;
             }
-            else
-            {
+           
                 return false;
-            }
+            
         }
     }
 }
